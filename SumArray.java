@@ -5,12 +5,19 @@ package Chapter7;
 public class SumArray {
 
     public static void main(String[] args) {
-        int[] number = {4, 20, 18, 16, 17};
+
+//        initialize an array with a set of numbers
+//        initialize total to 0
+//        loop through each numbers and calculate the values and store in total.
+//        print the total.
+
+
+        int[] numbers = {4, 20, 18, 16, 17};
         int total = 0;
 
-        for (int count = 0; count < number.length; count++) {
-            total += number[count];
+        for (int count = 0; count < numbers.length; count++) {
+            total += numbers[count];
         }
-        System.out.printf("The total of array number is %d", total);
+        System.out.printf("The total of array numbers is %d", total);
     }
 }
